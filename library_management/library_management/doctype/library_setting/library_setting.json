@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 03:39:23.034340",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "max_outstanding_debt",
+  "rent_fee_per_book_per_day",
+  "maximum_day_for_each_book",
+  "max_no_of_book_can_be_issued"
+ ],
+ "fields": [
+  {
+   "fieldname": "rent_fee_per_book_per_day",
+   "fieldtype": "Int",
+   "label": "Rent fee per book per day"
+  },
+  {
+   "fieldname": "maximum_day_for_each_book",
+   "fieldtype": "Int",
+   "label": "Maximum Day for each book"
+  },
+  {
+   "fieldname": "max_no_of_book_can_be_issued",
+   "fieldtype": "Int",
+   "label": "Max no of book can be issued"
+  },
+  {
+   "fieldname": "max_outstanding_debt",
+   "fieldtype": "Int",
+   "label": "Max Outstanding Debt"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-09-02 05:40:04.818464",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
